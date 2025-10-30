@@ -53,7 +53,7 @@ function App() {
           {/* Background animations */}
           <BackgroundAnimation />
 
-          <Router>
+          <Router basename="/nourkhadour">
             <Layout>
               <Suspense fallback={<PageLoader />}>
                 <Routes>
