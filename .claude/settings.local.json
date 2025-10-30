@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for dir in \"C:\\Users\\MSI\\Desktop\\New_folder\\work\"/*)",
+      "Bash(do if [ -d \"$dir\" ])",
+      "Bash(ls:*)",
+      "Bash(fi)",
+      "Bash(done)",
+      "Read(//c/Users/MSI/Desktop/New_folder/work/AutoCaller-main/**)",
+      "Read(//c/Users/MSI/Desktop/New_folder/work/its/**)",
+      "Read(//c/Users/MSI/Desktop/New_folder/work/**)",
+      "Bash(curl:*)",
+      "Bash(npm create:*)",
+      "Bash(npm install)",
+      "Bash(npm run build:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
