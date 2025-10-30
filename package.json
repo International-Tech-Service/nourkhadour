@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://international-tech-service.github.io/nourkhadour",
+  "homepage": "https://nourkhadour.intertech.services",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
